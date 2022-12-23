@@ -40,6 +40,6 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 - GitHub - [TakoJandieri](https://github.com/TakoJandieri)
 - Frontend Mentor - [TakoJandieri](https://github.com/TakoJandieri)
-- LinkedIn - [@tako-jandieri](www.linkedin.com/in/tako-jandieri)
+- LinkedIn - [@tako-jandieri](https://www.linkedin.com/in/tako-jandieri/)
 
 
