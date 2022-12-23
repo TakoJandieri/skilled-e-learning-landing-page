@@ -38,8 +38,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ## Author
 
-- GitHub - [TakoJandieri] (https://github.com/TakoJandieri)
-- Frontend Mentor - [TakoJandieri] 
+- GitHub - [TakoJandieri](https://github.com/TakoJandieri)
+- Frontend Mentor - [TakoJandieri](https://github.com/TakoJandieri)
 - LinkedIn - [@tako-jandieri](www.linkedin.com/in/tako-jandieri)
 
 
