@@ -1,10 +1,10 @@
-# skilled-e-learning-landing-page
+## skilled-e-learning-landing-page
 
-Links
+#Links
 
-    Live Site URL: Click here
+    Live Site URL:[Click here](https://takojandieri.github.io/skilled-e-learning-landing-page/))
 
-Created with
+#Created with
 
     Semantic HTML5 markup
     Flexbox
@@ -12,7 +12,7 @@ Created with
     Mobile-first workflow
     
     
-Author
+#Author
 
     github - TakoJandieri
     Frontend Mentor - TakoJandieri
