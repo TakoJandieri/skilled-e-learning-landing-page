@@ -1,0 +1,244 @@
+*{
+
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background: linear-gradient(180deg, #FFFFFF 0%, #F0F1FF 100%);
+  
+    margin: 0px;
+    width: 100vw;
+    overflow-x: hidden;
+    
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+
+#main > h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #13183F;
+    padding-top: 15px;
+    
+}
+
+#main > p {
+    display: inline;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 26px;
+    color: #83869A;
+}
+
+.toplogo {
+    display: inline;
+    width: 89px;
+    padding-top: 6px;
+
+}
+
+#topbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -40px;
+
+
+}
+
+/* #darkstart:after {
+    background-color: #F74780;
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+#darkstart:active::after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+
+} */
+
+
+#darkstart {
+    display: inline;
+    /* position: absolute; */
+    background-color: #13183F;
+    border-radius: 28px;
+    color: #FFFFFF;
+    width: 140px;
+    height: 48px;
+    border-style: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    /* margin-left: 50rem;
+    transition-duration: 0.4s;
+    cursor: pointer; */
+   
+}
+
+/* #darkstart:hover {
+    background-color: #666CA3;
+} */
+
+#gridcontainer {
+    display: grid;
+    row-gap: 40px;
+    justify-self: center;
+ 
+}
+
+#griditem {
+    box-shadow: 0px 25px 50px rgba(6, 22, 141, 0.0442381);
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 28px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+
+#griditem > h1 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #13183F;
+    padding-top: 15px;
+
+
+}
+
+#griditem > p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #83869A;
+    padding-bottom: 10px;
+    
+
+}
+
+#griditem > button {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: -3px;
+    color: #F74780;
+    border: none;
+    background: none;
+}
+
+
+#logo {
+    display: flex;
+    margin-top: -50px;
+}
+
+#button2 {
+    padding-top: 24px;
+    
+}
+
+#getstart {
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    /* background-color: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%); */
+    border-radius: 31.5px;
+    width: 167px;
+    height: 56px;
+    text-align: center;
+    border-style: none;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+
+#hero {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: 15px;
+    
+}
+
+#checkout {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+    border-radius: 10px;
+    padding: 24px 29px 32px 28px;
+    margin-top: -10px;
+
+}
+
+#bottomplace {
+    background-color: #13183F;
+    height: 88px;
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+
+#bottomplace > img {
+    align-self: center;
+    
+    width: 89px;
+}
+
+#bottomplace > button {
+   
+    background: linear-gradient(180deg, #4851FF 0%, #F02AA6 100%);
+    border-radius: 28px;
+    height: 48px;
+    width: 140px;
+    border-style: none;
+    align-self: center;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    
+}
+
+footer {
+    width: 100%;
+}
+
+#herotablet {
+    display: none;
+}
+
+#herodesktop {
+    display: none;
+}

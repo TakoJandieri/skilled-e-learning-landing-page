@@ -1,0 +1,169 @@
+@import url(styles.css);
+@import url(stylestablet.css);
+
+@media screen and (min-width: 900px) {
+
+    
+    #herotablet {
+        display: none;
+    }
+    
+    #hero {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        width: 100vw;
+
+    }
+
+    
+    #topbutton {
+        position: relative;
+        top: 5.5rem;
+        left: 30rem;
+        
+    }
+
+    #darkstart {
+        position: absolute;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        left: 33rem;
+        top: -5rem;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        width: 167px;
+        height: 56px;
+
+    }
+
+    #darkstart:hover {
+        background-color: #666CA3;
+    }
+
+    #herodesktop {
+        display: flex;
+        justify-content: flex-end;
+        margin-left: 305rem;
+        margin-top: -15rem;
+    }
+
+
+    #gridcontainer {
+        grid-template-columns: 350px 350px 350px;
+        column-gap: 30px;
+        row-gap: 80px;
+        margin-top: 10rem;
+    }
+
+    #checkout {
+        font-weight: 800;
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    #griditem > h1 {
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #griditem > p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        margin-top: 2rem;
+    }
+
+    /* #lightstart {
+        padding-bottom: 40px;
+    } */
+
+    #add {
+        margin-bottom: 2.5rem;
+    }
+
+    #container {
+        padding-left: 165px;
+        padding-right: 165px;
+        
+    }
+    #lightstart {
+        transition-duration: 0.4s;
+        cursor: pointer;
+    }
+
+
+    #lightstart:hover {
+        color: #FFA7C3;
+    }
+
+    #main {
+        margin-top: -38rem;
+        position: relative;
+    }
+
+    #main > h1 {
+        margin-top: 9rem;
+        font-size: 56px;
+        line-height: 71px;
+        width: 457px;
+    }
+
+    #main > p {
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 28px;
+        
+    }
+
+    #button2 > #getstart {
+        /* display: inline; */
+        margin-top: 9rem;
+        /* padding-top: 20px; */
+        margin-left: -24.9rem;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: absolute;
+        
+    }
+
+    #mode {
+        position: relative;
+    }
+
+    #button2 > #getstart:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        
+    }
+    
+    #adding {
+        margin-bottom: 5rem;
+    }
+
+    #bottomplace {
+        padding-left: 165px;
+        padding-right: 165px;
+
+    }
+
+    #bottomstart {
+        margin-right: 6rem;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        width: 167px;
+        height: 56px;
+        cursor: pointer;
+        transition-duration: 0.4s;
+    }
+
+    #bottomstart:hover {
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+    }
+
+
+}

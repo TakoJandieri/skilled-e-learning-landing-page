@@ -1,0 +1,82 @@
+@import url(styles.css);
+
+@media screen and (min-width: 500px) {
+
+    *{
+        font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+
+    #hero {
+        display: none;
+    }
+
+    #herodesktop {
+        display: none;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        /* overflow-x: hidden; */
+    }
+
+
+    #gridcontainer {
+        grid-template-columns: 340px 340px;
+        column-gap: 10px;
+        row-gap: 56px;
+    }
+
+    #checkout {
+        padding-top: 42px;
+    }
+
+    #container {
+        padding: 39px;
+        
+    }
+
+    #mode {
+        display: grid;
+        grid-template-columns: 398px auto;
+       
+    }
+   
+    #button2 {
+        order: 3;
+        display: inline-block;
+    }
+
+    #herotablet {
+        display: flex;
+        margin-left: -4rem;
+        margin-top: -10rem;
+        
+    }
+
+    #button2 {
+        margin-top: -20rem;
+    }
+   
+    #main > p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        color: #83869A;
+    }
+
+    #main > h1 {
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40px;
+        line-height: 50px;
+        color: #13183F;
+
+    }
+
+
+}
+
