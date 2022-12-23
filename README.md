@@ -3,6 +3,8 @@
 #Links
 
     Live Site URL: [Click here] (https://takojandieri.github.io/skilled-e-learning-landing-page/).
+    [GitHub Pages](https://pages.github.com/).
+    
 Created with
 
     Semantic HTML5 markup
