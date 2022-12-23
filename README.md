@@ -12,7 +12,8 @@ Created with
     Mobile-first workflow
     
     
-    Author
+Author
+
     github - TakoJandieri
     Frontend Mentor - TakoJandieri
     Linkedin - tako-jandieri
